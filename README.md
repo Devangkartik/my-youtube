@@ -15,6 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+<<<<<<< HEAD
 
 ### `npm test`
 
@@ -70,3 +71,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+ormation.
+
+
+Each API Call is time consuming ..
+ 
+Debouncing  :  it's reduce the frequent api call coz these call very expensive . it's use for provideing good user experience .. We denote debouncing the time between two key press ..
+
+If you want to see search fansnality in your browser make sure CORS Plugin used inside your browser ..
+
+Redux is a JS library for predictable and maintainable global state management.
+usig for search result cache management ..
+>>>>>>> 114c00d (Inicial commit after brach rename)

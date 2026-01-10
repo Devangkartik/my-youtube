@@ -8,6 +8,41 @@ export const CommentDataStructure = [
         replies : [
               {
                 name : "Om jaiswal",
+<<<<<<< HEAD
+=======
+                text : "Its is best movie I never ever seen in my life ",
+                 replies : [
+              {
+                name : "Om jaiswal",
+                text : "Its is best movie I never ever seen in my life ",
+                 replies : [
+              {
+                name : "Om jaiswal",
+                text : "Its is best movie I never ever seen in my life "
+              }
+        ]
+              }
+        ]
+              }
+        ]
+    },
+    {
+        name : "Devang kartik",
+        text : "I have never seen such kind of videos",
+        replies : [
+              {
+                name : "Om jaiswal",
+                text : "Its is best movie I never ever seen in my life "
+              }
+        ]
+    },
+    {
+        name : "Devang kartik",
+        text : "I have never seen such kind of videos",
+        replies : [
+              {
+                name : "Om jaiswal",
+>>>>>>> 114c00d (Inicial commit after brach rename)
                 text : "Its is best movie I never ever seen in my life "
               }
         ]
@@ -27,6 +62,7 @@ export const CommentDataStructure = [
     )
 }
 
+<<<<<<< HEAD
 export const CommentList = ({comments}) =>{
       return comments.map((comment,index) =>(
        <div>
@@ -39,6 +75,18 @@ export const CommentList = ({comments}) =>{
              </div>
        </div>
     )  
+=======
+export const CommentList = ({comments = []}) =>{
+      return comments.map((comment,index) =>(
+      <div key={index}>
+             <CommentData  data={comment}/>
+             <div className="pl-2 border border-l-black ml-5">
+                <CommentList key={index} comments = {comment?.replies} /> 
+             <CommentList comments={comment.replies}/>
+            </div>
+       </div>
+      )
+>>>>>>> 114c00d (Inicial commit after brach rename)
  )    
      
 }

@@ -2,8 +2,11 @@ import React from 'react'
 
 const  VideoItems = ({info}) => {
 
+<<<<<<< HEAD
         console.log(info);
 
+=======
+>>>>>>> 114c00d (Inicial commit after brach rename)
     const { snippet , statistics } = info;
     const {channelTitle , title , thumbnails  } = snippet;
 
@@ -18,5 +21,18 @@ const  VideoItems = ({info}) => {
     </div>
   )
 }
+<<<<<<< HEAD
 
+=======
+  
+export const AdVideoCard = ({info}) =>{
+ const { snippet , statistics } = info;
+    const {channelTitle , title , thumbnails  } = snippet;
+  return(
+    <div className='bg-black-500 p-1 m-1 border border-red-800 hover:bg-black-700'>
+      <VideoItems info={info}/>
+    </div>
+  )
+}
+>>>>>>> 114c00d (Inicial commit after brach rename)
 export default VideoItems;
