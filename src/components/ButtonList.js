@@ -1,10 +1,7 @@
 import React from "react";
 import Button from "./Button"
 const ButtonList = () =>{
-<<<<<<< HEAD
-=======
  
->>>>>>> 114c00d (Inicial commit after brach rename)
     return(
         <div className="flex">
           <Button name= "All"/>
